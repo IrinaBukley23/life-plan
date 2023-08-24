@@ -7,7 +7,7 @@ import './layout.scss';
 const Layout = () => {
     
     return (
-        <div className="container">
+        <div>
             <Header />
             <main className="wrapper">
                 <Sidebar />

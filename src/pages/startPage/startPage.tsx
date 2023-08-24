@@ -4,14 +4,14 @@ import './startPage.scss';
 const StartPage = () => {
     
     return (
-        <div className="container">
+        <section className="start">
             <h1>Start Page</h1>
             <button>
                 <Link to="/main" style={{ padding: 5 }}>
                     Enter
                 </Link>
             </button>
-        </div>
+        </section>
     )
 }
 

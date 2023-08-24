@@ -4,12 +4,12 @@ import './notFoundPage.scss';
 const NotFoundPage = () => {
     
     return (
-        <div className="container">
+        <section className="container">
             <h1>404 Page</h1>
             <Link to="/" style={{ padding: 5 }}>
                 To start page
             </Link>
-        </div>
+        </section>
     )
 }
 

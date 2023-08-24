@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Sidebar = () => {
     
     return (
-        <div className="container">
+        <aside className="sidebar">
             <h2>Sidebar</h2>
             <nav style={{ margin: 10 }}>
                 <Link to="/main" style={{ padding: 5 }}>
@@ -14,7 +14,7 @@ const Sidebar = () => {
                 Finance
                 </Link>
             </nav>
-        </div>
+        </aside>
     )
 }
 
