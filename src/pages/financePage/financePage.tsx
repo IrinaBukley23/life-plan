@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
-import './mainPage.scss';
+import './financePage.scss';
 
-const MainPage = () => {
+const FinancePage = () => {
     
     return (
         <div className="container">
-            <h1>Main Page</h1>
+            <h1>Finance Page</h1>
             <Link to="/" style={{ padding: 5 }}>
                 To start page
             </Link>
@@ -13,4 +13,4 @@ const MainPage = () => {
     )
 }
 
-export default MainPage;
+export default FinancePage;
